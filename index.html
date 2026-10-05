@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Savanna Grill</title>
+  <meta name="description" content="Savanna Grill: Kenyan-inspired dishes with a modern twist on Ngong Road, Kilimani, Nairobi.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="home">
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main">
+      <a class="logo" href="index.html">Savanna Grill</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <h1 id="hero-title">Savanna Grill</h1>
+        <p class="tagline">Where Kenyan Flavours Meet Modern Craft</p>
+        <a class="btn" href="menu.html">View Menu</a>
+      </div>
+    </section>
+
+    <aside class="offer-banner" aria-label="Special offer">
+      <p><strong>Nyama Choma Tuesday</strong> &mdash; 20% off all platters, all day.</p>
+    </aside>
+
+    <section class="section" aria-labelledby="featured-title">
+      <div class="container">
+        <h2 id="featured-title" class="section-title">Featured dishes</h2>
+        <p class="section-intro">Three plates our regulars order again and again.</p>
+        <div class="cards">
+          <article class="card">
+            <img src="images/Nyama Choma.jpg" alt="Nyama choma platter with grilled goat ribs" loading="lazy">
+            <div class="card-body">
+              <h3>Nyama Choma Platter</h3>
+              <p>500g of grilled goat ribs with kachumbari, ugali and sukuma wiki.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="images/Grilled.jpg" alt="Whole grilled tilapia with lemon butter" loading="lazy">
+            <div class="card-body">
+              <h3>Grilled Tilapia</h3>
+              <p>Whole Lake Victoria tilapia in lemon butter, served with coconut rice.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="images/Braised short ribs.jpg" alt="Braised short ribs on sweet potato mash" loading="lazy">
+            <div class="card-body">
+              <h3>Braised Short Ribs</h3>
+              <p>Beef ribs braised for eight hours, on sweet potato mash with red wine jus.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" aria-labelledby="why-title">
+      <div class="container">
+        <h2 id="why-title" class="section-title">Why Savanna Grill?</h2>
+        <div class="features">
+          <article class="feature">
+            <div class="feature-icon" aria-hidden="true">&#127806;</div>
+            <h3>Locally sourced</h3>
+            <p>Tilapia from Lake Victoria, vegetables from Limuru, coffee from Nyeri.</p>
+          </article>
+          <article class="feature">
+            <div class="feature-icon" aria-hidden="true">&#128104;&#8205;&#127859;</div>
+            <h3>Award-winning chef</h3>
+            <p>Chef Amani Odera brings fine dining technique to Kenyan classics.</p>
+          </article>
+          <article class="feature">
+            <div class="feature-icon" aria-hidden="true">&#127751;</div>
+            <h3>Rooftop dining</h3>
+            <p>Eat in the open air with views of the Ngong Hills.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <section>
+        <h3>Visit us</h3>
+        <address>
+          42 Ngong Road, Kilimani<br>
+          Nairobi, Kenya<br>
+          <a href="tel:+254712345678">+254 712 345 678</a>
+        </address>
+        <dl class="hours-mini">
+          <div><dt>Mon–Thu</dt><dd>11:00 AM – 10:00 PM</dd></div>
+          <div><dt>Fri–Sat</dt><dd>11:00 AM – 11:30 PM</dd></div>
+          <div><dt>Sunday</dt><dd>10:00 AM – 9:00 PM</dd></div>
+        </dl>
+      </section>
+      <section>
+        <h3>Quick links</h3>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </section>
+      <section>
+        <h3>Follow us</h3>
+        <ul class="footer-links">
+          <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://x.com" target="_blank" rel="noopener">X (Twitter)</a></li>
+        </ul>
+      </section>
+    </div>
+    <p class="copyright">&copy; 2026 Savanna Grill. A fictional restaurant for a learning project.</p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Savanna Grill</title>
+  <meta name="description" content="Address, phone, opening hours and contact form for Savanna Grill, Kilimani, Nairobi.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="">
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main">
+      <a class="logo" href="index.html">Savanna Grill</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-banner">
+      <h1>Contact Us</h1>
+      <p>Book a table, ask a question, or just say habari.</p>
+    </section>
+
+    <section class="section">
+      <div class="container two-col contact-cols">
+        <div class="contact-info">
+          <h2>Find us</h2>
+          <address>
+            <p><strong>Address</strong><br>42 Ngong Road, Kilimani, Nairobi</p>
+            <p><strong>Phone</strong><br><a href="tel:+254712345678">+254 712 345 678</a></p>
+            <p><strong>Email</strong><br><a href="mailto:hello@savannagrill.co.ke">hello@savannagrill.co.ke</a></p>
+          </address>
+          <h2>Opening hours</h2>
+          <table class="hours-table">
+            <thead>
+              <tr><th scope="col">Day</th><th scope="col">Hours</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Monday &ndash; Thursday</td><td>11:00 AM &ndash; 10:00 PM</td></tr>
+              <tr><td>Friday &ndash; Saturday</td><td>11:00 AM &ndash; 11:30 PM</td></tr>
+              <tr><td>Sunday</td><td>10:00 AM &ndash; 9:00 PM (Brunch from 10 AM)</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <form class="contact-form" id="contact-form" action="#" method="post">
+          <h2>Send a message</h2>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" autocomplete="name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone" autocomplete="tel">
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit" class="btn">Send message</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="map" aria-label="Map of Kilimani, Nairobi">
+      <iframe
+        title="Map showing Kilimani, Nairobi"
+        src="https://www.google.com/maps?q=Ngong+Road+Kilimani+Nairobi&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        allowfullscreen></iframe>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <section>
+        <h3>Visit us</h3>
+        <address>
+          42 Ngong Road, Kilimani<br>
+          Nairobi, Kenya<br>
+          <a href="tel:+254712345678">+254 712 345 678</a>
+        </address>
+        <dl class="hours-mini">
+          <div><dt>Mon–Thu</dt><dd>11:00 AM – 10:00 PM</dd></div>
+          <div><dt>Fri–Sat</dt><dd>11:00 AM – 11:30 PM</dd></div>
+          <div><dt>Sunday</dt><dd>10:00 AM – 9:00 PM</dd></div>
+        </dl>
+      </section>
+      <section>
+        <h3>Quick links</h3>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </section>
+      <section>
+        <h3>Follow us</h3>
+        <ul class="footer-links">
+          <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://x.com" target="_blank" rel="noopener">X (Twitter)</a></li>
+        </ul>
+      </section>
+    </div>
+    <p class="copyright">&copy; 2026 Savanna Grill. A fictional restaurant for a learning project.</p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
